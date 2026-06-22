@@ -1,9 +1,11 @@
 # Automated CI/CD Pipeline for Containerized Applications
 
-## Project Overview
-This project demonstrates a complete CI/CD workflow using GitHub Actions, Docker, Kubernetes, and Terraform.
+## 📌 Project Overview
 
-## Tools Used
+This project demonstrates an end-to-end CI/CD pipeline using GitHub Actions, Docker, Kubernetes, and Terraform.
+
+## 🛠 Technologies Used
+
 - GitHub Actions
 - Docker
 - Kubernetes
@@ -11,28 +13,38 @@ This project demonstrates a complete CI/CD workflow using GitHub Actions, Docker
 - AWS
 - Linux
 
-## Project Structure
+## 📂 Project Structure
 
-devops-cicd-pipeline/
+```text
+devops-cicd-pipeline
 ├── Dockerfile
 ├── Jenkinsfile
 ├── terraform/
 ├── kubernetes/
 ├── .github/workflows/
 └── README.md
+```
 
+## 🚀 Pipeline Workflow
 
-## Pipeline Workflow
+Developer Pushes Code
+⬇️
 
-Code Commit
-↓
-GitHub Actions
-↓
+GitHub Actions Triggered
+⬇️
+
 Build Docker Image
-↓
-Push Image
-↓
-Deploy to Kubernetes
-↓
-Application Running
+⬇️
 
+Push Docker Image
+⬇️
+
+Deploy to Kubernetes
+⬇️
+
+Application Running Successfully
+
+
+## 🎯 Objective
+
+Automate application build, packaging, and deployment with minimal manual effort.
